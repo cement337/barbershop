@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root {
+    --color-blue: #3A99CE;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+header.main-header {
+    position: absolute;
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+}
+
+.items-item {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.login-reg {
+    display: flex;
+    gap: 25px;
+}
+
+.login-reg.login {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-reg.reg {
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('./img/img-background.png') no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.561);
+}
+
+.container {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container.main-block {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 span {
+    color: var(--color-blue);
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.zapis {
+    background-color: var(--color-blue);
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
